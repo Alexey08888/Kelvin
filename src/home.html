@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="ru">
 	@@include('html/_head.htm',{
-	"title":"Главная"
+	"title":"Kelvin"
 	})
 	<body>
 		<div class="wrapper">
 			@@include('html/_header.htm',{})
-			<main class="page">
-			</main>
+			 <main class="page">
+          <div class="page__section-main main-section">
+			 <div class="main-section__container">
+			  <section class="main-section">
+				<div class="main-section__body">
+					<div class="main-section__info info">
+               <h1 class="info__title">Kelvin Kramer</h1>
+					<h2 class="info__sub-title">Designer & Developer</h2>
+					<p class="info__text">I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.</p>
+					</div>
+					<div class="main-section__image">
+						<img src="@img/hero.png" alt="">
+					</div>
+				</div>
+			</section>
+			 
+		   </div>
+			</div>
+			<section class="services">
+				<div class="services__container">
+					<div class="services__inner">
+						<div class="services__card card">
+							<div class="card__img">
+								<img src="@img/1.svg" alt="">
+							</div>
+							<div class="card__title">UI/UX Design</div>
+						   <div class="card__text">Our design is translated into comprehensive 
+								digital environments built on latest development standards.</div>
+						</div>
+
+						<div class="services__card card">
+							<div class="card__img">
+								<img src="@img/2.svg" alt="">
+							</div>
+							<div class="card__title">Development</div>
+						   <div class="card__text">Our design is translated into comprehensive 
+								digital environments built on latest development standards.</div>
+						</div>
+
+						<div class="services__card card">
+							<div class="card__img">
+								<img src="@img/3.svg" alt="">
+							</div>
+							<div class="card__title">software testing</div>
+						   <div class="card__text">Our design is translated into comprehensive 
+								digital environments built on latest development standards.</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			</main> 
 			@@include('html/_footer.htm',{})
 		</div>
 		@@include('html/_popup.htm',{})
