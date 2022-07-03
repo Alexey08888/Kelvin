@@ -70,11 +70,18 @@
 			  transition: left 0.3s ease 0s;
 			  padding: 40px 15px 30px 15px;
 			  font-size: 34px;
-			  &__link {
-           padding-bottom: 20px;
-			}
+			  color: #828282;
+			 
+			
 			.menu-open & {
 				left:0;
+			
+			}
+			.menu__item  {
+			   font-weight: 600;
+            font-size: 34px;
+            line-height: 51px;
+				padding-bottom: 49px;
 			}
 		}
 	}
@@ -101,7 +108,8 @@
 
 	// .menu__link
 
-	&__link {   
+	&__link { 
+		
 	}
 }
 	.icon-menu {

@@ -9,7 +9,8 @@
 	}
 }
 .main-section {
-margin-bottom: 70px;
+	background-color: #F1F1F1;
+
 	// .main-section__container
 
 	&__container {
@@ -90,7 +91,9 @@ margin-bottom: 70px;
 /* Services*/
 
 .services {
-
+   background-color: #fff;
+	padding: 70px 0px 70px 0px;
+	margin-bottom: 90px;
 	// .services__container
 
 	&__container {
@@ -139,5 +142,43 @@ margin-bottom: 70px;
 	}
 }
 
+
+
+
+
+.portfolio {
+   text-align: center;
+
+	&__inner {
+	}
+
+	// .portfolio__title
+
+	&__title {
+		font-weight: 600;
+      font-size: 34px;
+      line-height: 51px;
+		color: #070707;
+		margin-bottom: 70px;
+	}
+
+	// .portfolio__img
+
+	&__img img  {
+   margin-bottom: 40px;
+	@media (max-width:$tablet){
+		  width: 100%;
+		  height: auto;
+	}
+	}
+
+	// .portfolio__link
+
+	&__link {
+		margin-bottom: 90px;
+		text-decoration: underline;
+
+	}
+}
 
 //====================================================================================================
