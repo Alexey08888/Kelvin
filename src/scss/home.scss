@@ -93,7 +93,8 @@
 .services {
    background-color: #fff;
 	padding: 70px 0px 70px 0px;
-	margin-bottom: 90px;
+	@include adaptiveValue("margin-bottom", 90, 50);
+	
 	// .services__container
 
 	&__container {
@@ -105,7 +106,7 @@
 		display: flex;
 		column-gap: 30px;
 		flex-wrap: wrap;
-		@media (max-width:$tablet){
+		@media (max-width:1175px){
 			justify-content: center;
 		  }
 	}
@@ -148,7 +149,7 @@
 
 .portfolio {
    text-align: center;
-
+  
 	&__inner {
 	}
 
@@ -159,7 +160,8 @@
       font-size: 34px;
       line-height: 51px;
 		color: #070707;
-		margin-bottom: 70px;
+		@include adaptiveValue("margin-bottom", 70, 35);
+	
 	}
 
 	// .portfolio__img
@@ -175,7 +177,7 @@
 	// .portfolio__link
 
 	&__link {
-		margin-bottom: 90px;
+		@include adaptiveValue("margin-bottom", 90, 35);
 		text-decoration: underline;
 
 	}
