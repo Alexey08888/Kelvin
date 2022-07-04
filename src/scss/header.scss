@@ -123,7 +123,10 @@
 	// .menu__link
 
 	&__link { 
-		
+		transition: all 0.3s ease 0s;
+		&:hover{
+			color: #606060;
+		}
 	}
 }
 	.icon-menu {

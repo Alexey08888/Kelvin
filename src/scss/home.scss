@@ -104,7 +104,7 @@
 
 	&__inner {
 		display: flex;
-		column-gap: 30px;
+		gap: 30px;
 		flex-wrap: wrap;
 		@media (max-width:1175px){
 			justify-content: center;
@@ -183,4 +183,10 @@
 	}
 }
 
+a {
+	transition: all 0.3s ease 0s;
+	&:hover{
+		color: #606060;
+	}
+}
 //====================================================================================================
